@@ -75,11 +75,15 @@ Cuando el cliente tenga dominio propio, por ejemplo `sebastianweisz.com`, esos a
 https://sebastianweisz.com/
 ```
 
-## Como reemplazar imagenes
+## Imagenes de proyectos
 
-Ahora la web usa imagenes temporales de Unsplash con URLs externas, para que se vean en Vercel aunque todavia no tengamos fotos propias.
+La web ya usa fotos reales provistas por el cliente. Estan guardadas en:
 
-Cuando lleguen las fotos reales del cliente, guardarlas dentro de `assets/` y cambiar los `src` en `index.html`.
+```txt
+assets/projects/
+```
+
+Si llegan nuevas fotos, guardarlas en esa carpeta y cambiar los `src` en `index.html`.
 
 Ejemplo:
 

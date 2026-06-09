@@ -22,7 +22,7 @@
       content="Proyectos residenciales, comerciales, interiores y restauracion con una mirada contemporanea, natural y cercana."
     />
     <meta property="og:url" content="https://sebastian-weisz-arquitectura.vercel.app/" />
-    <meta property="og:image" content="https://images.unsplash.com/photo-1761367950537-14f834333ecc?auto=format&fit=crop&q=80&w=1600" />
+    <meta property="og:image" content="https://sebastian-weisz-arquitectura.vercel.app/assets/projects/talar-del-lago-2.jpeg" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Sebastian Weisz Arquitectura | Buenos Aires" />
@@ -30,11 +30,11 @@
       name="twitter:description"
       content="Estudio de arquitectura en Buenos Aires. Proyecto, interiores, restauracion y direccion de obra."
     />
-    <meta name="twitter:image" content="https://images.unsplash.com/photo-1761367950537-14f834333ecc?auto=format&fit=crop&q=80&w=1600" />
+    <meta name="twitter:image" content="https://sebastian-weisz-arquitectura.vercel.app/assets/projects/talar-del-lago-2.jpeg" />
 
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="site.webmanifest" />
-    <link rel="preload" href="https://images.unsplash.com/photo-1761367950537-14f834333ecc?auto=format&fit=crop&q=80&w=1600" as="image" />
+    <link rel="preload" href="assets/projects/talar-del-lago-2.jpeg" as="image" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -89,8 +89,8 @@
     <main id="contenido">
       <section class="hero" id="inicio">
         <img
-          src="https://images.unsplash.com/photo-1761367950537-14f834333ecc?auto=format&fit=crop&q=80&w=1800"
-          alt="Galeria de arquitectura contemporanea con materiales naturales"
+          src="assets/projects/talar-del-lago-2.jpeg"
+          alt="Galeria exterior de la obra Talar del Lago con pileta y expansion semicubierta"
         />
         <div class="hero-overlay"></div>
         <div class="hero-content">
@@ -150,59 +150,83 @@
           </div>
           <div class="filters" aria-label="Filtrar proyectos">
             <button class="filter active" type="button" data-filter="all">Todos</button>
-            <button class="filter" type="button" data-filter="vivienda">Vivienda</button>
-            <button class="filter" type="button" data-filter="interiores">Interiores</button>
-            <button class="filter" type="button" data-filter="patrimonio">Patrimonio</button>
+            <button class="filter" type="button" data-filter="buenos-aires">Buenos Aires</button>
+            <button class="filter" type="button" data-filter="campo">Campo</button>
+            <button class="filter" type="button" data-filter="jose-ignacio">Jose Ignacio</button>
           </div>
         </div>
 
         <div class="project-grid">
-          <article class="project-card" data-category="vivienda">
-            <img
-              src="https://images.unsplash.com/photo-1761367950537-14f834333ecc?auto=format&fit=crop&q=80&w=900"
-              alt="Proyecto de vivienda contemporanea con materiales naturales"
-              loading="lazy"
-            />
+          <article class="project-card" data-category="buenos-aires">
+            <div class="project-media">
+              <img
+                src="assets/projects/talar-del-lago-2.jpeg"
+                alt="Obra Talar del Lago con quincho, pileta y expansion exterior"
+                loading="lazy"
+              />
+              <div class="project-thumbs" aria-label="Mas fotos de Talar del Lago">
+                <img src="assets/projects/talar-del-lago-1.jpeg" alt="Vista de la casa Talar del Lago desde el jardin" loading="lazy" />
+                <img src="assets/projects/talar-del-lago-3.jpeg" alt="Galeria y pileta de Talar del Lago" loading="lazy" />
+                <img src="assets/projects/talar-del-lago-4.jpeg" alt="Comedor exterior de Talar del Lago" loading="lazy" />
+              </div>
+            </div>
             <div class="project-info">
               <span>Vivienda unifamiliar</span>
-              <h3>Casa de materiales naturales</h3>
-              <p>Proyecto integral y acompanamiento de obra.</p>
+              <h3>Talar del Lago</h3>
+              <p>Casa con espacios exteriores, pileta y areas semicubiertas para uso cotidiano.</p>
             </div>
           </article>
-          <article class="project-card" data-category="interiores">
+          <article class="project-card" data-category="campo">
             <img
-              src="https://images.unsplash.com/photo-1744126405278-b8c428f309ce?auto=format&fit=crop&q=80&w=900"
-              alt="Interior residencial con madera y luz natural"
+              src="assets/projects/san-miguel-del-monte.jpeg"
+              alt="Casa contemporanea en San Miguel del Monte rodeada de paisaje rural"
               loading="lazy"
             />
             <div class="project-info">
-              <span>Interiores</span>
-              <h3>Reforma residencial</h3>
-              <p>Rediseno espacial, terminaciones y detalles a medida.</p>
+              <span>Vivienda de campo</span>
+              <h3>San Miguel del Monte</h3>
+              <p>Volumenes bajos, hormigon y paisaje abierto como parte central del proyecto.</p>
             </div>
           </article>
-          <article class="project-card" data-category="patrimonio">
+          <article class="project-card" data-category="jose-ignacio">
             <img
-              src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Lanesboro_Arts_Gallery_Restored_Exterior_Facade.jpg"
-              alt="Edificio historico restaurado"
+              src="assets/projects/las-portuguesas-jose-ignacio.jpeg"
+              alt="Casa Las Portuguesas en Jose Ignacio integrada al paisaje natural"
               loading="lazy"
             />
             <div class="project-info">
-              <span>Restauracion</span>
-              <h3>Patrimonio y actualizacion</h3>
-              <p>Lectura historica con respuesta tecnica contemporanea.</p>
+              <span>Vivienda costera</span>
+              <h3>Las Portuguesas, Jose Ignacio</h3>
+              <p>Arquitectura contemporanea con hormigon, madera y vegetacion nativa.</p>
             </div>
           </article>
-          <article class="project-card" data-category="interiores">
+          <article class="project-card" data-category="jose-ignacio">
             <img
-              src="https://images.unsplash.com/photo-1761971976200-24b6b2abc903?auto=format&fit=crop&q=80&w=900"
-              alt="Interior comercial contemporaneo con barra de marmol y vegetacion"
+              src="assets/projects/arenas-de-jose-ignacio.jpeg"
+              alt="Casa Arenas de Jose Ignacio con piedra, madera y galeria exterior"
               loading="lazy"
             />
             <div class="project-info">
-              <span>Locales</span>
-              <h3>Espacio comercial</h3>
-              <p>Imagen, circulacion, materialidad y experiencia de uso.</p>
+              <span>Vivienda costera</span>
+              <h3>Arenas de Jose Ignacio</h3>
+              <p>Casa de una planta abierta al entorno, con piedra y grandes aventanamientos.</p>
+            </div>
+          </article>
+          <article class="project-card" data-category="campo">
+            <div class="project-media">
+              <img
+                src="assets/projects/benquerencia-1.jpeg"
+                alt="Casa Benquerencia con jardin, pileta y galeria"
+                loading="lazy"
+              />
+              <div class="project-thumbs" aria-label="Mas fotos de Benquerencia">
+                <img src="assets/projects/benquerencia-2.jpeg" alt="Acceso y jardin de la obra Benquerencia" loading="lazy" />
+              </div>
+            </div>
+            <div class="project-info">
+              <span>Vivienda unifamiliar</span>
+              <h3>Benquerencia</h3>
+              <p>Proyecto residencial con implantacion baja, jardin consolidado y expansion exterior.</p>
             </div>
           </article>
         </div>
