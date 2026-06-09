@@ -78,8 +78,8 @@
       </button>
 
       <nav class="site-nav" data-nav aria-label="Navegacion principal">
-        <a href="#estudio">Estudio</a>
         <a href="#proyectos">Proyectos</a>
+        <a href="#estudio">Estudio</a>
         <a href="#servicios">Servicios</a>
         <a href="#proceso">Proceso</a>
         <a class="nav-cta" href="#contacto">Reunion</a>
@@ -104,6 +104,119 @@
             <a class="button primary" href="#contacto">Agendar una reunion</a>
             <a class="button secondary" href="#proyectos">Ver proyectos</a>
           </div>
+        </div>
+      </section>
+
+      <section class="projects portfolio-section" id="proyectos">
+        <div class="portfolio-intro">
+          <div>
+            <p class="section-kicker">Obra seleccionada</p>
+            <h2>El portfolio como primera conversacion.</h2>
+          </div>
+          <div class="portfolio-copy">
+            <p>
+              Una seleccion de viviendas donde la implantacion, la luz, la materialidad y la vida
+              exterior ordenan cada decision de proyecto.
+            </p>
+            <div class="filters portfolio-filters" aria-label="Filtrar proyectos">
+              <button class="filter active" type="button" data-filter="all">Todos</button>
+              <button class="filter" type="button" data-filter="buenos-aires">Buenos Aires</button>
+              <button class="filter" type="button" data-filter="campo">Campo</button>
+              <button class="filter" type="button" data-filter="jose-ignacio">Jose Ignacio</button>
+            </div>
+          </div>
+        </div>
+
+        <article class="project-card featured-project" data-category="buenos-aires">
+          <div class="featured-image">
+            <img
+              src="https://raw.githubusercontent.com/gallardo034/Primer-repository/main/assets/projects/talar-del-lago-2.jpeg"
+              alt="Obra Talar del Lago con quincho, pileta y expansion exterior"
+            />
+          </div>
+          <div class="featured-panel">
+            <span>Obra destacada</span>
+            <h3>Talar del Lago</h3>
+            <p>
+              Una casa pensada desde el uso exterior: quincho, galeria, pileta y areas de descanso
+              funcionan como una extension natural de la vivienda.
+            </p>
+            <dl class="project-meta">
+              <div>
+                <dt>Tipo</dt>
+                <dd>Vivienda unifamiliar</dd>
+              </div>
+              <div>
+                <dt>Escala</dt>
+                <dd>Casa + exteriores</dd>
+              </div>
+              <div>
+                <dt>Lugar</dt>
+                <dd>Buenos Aires</dd>
+              </div>
+            </dl>
+            <div class="project-thumbs" aria-label="Mas fotos de Talar del Lago">
+              <img src="https://raw.githubusercontent.com/gallardo034/Primer-repository/main/assets/projects/talar-del-lago-1.jpeg" alt="Vista de la casa Talar del Lago desde el jardin" loading="lazy" />
+              <img src="https://raw.githubusercontent.com/gallardo034/Primer-repository/main/assets/projects/talar-del-lago-3.jpeg" alt="Galeria y pileta de Talar del Lago" loading="lazy" />
+              <img src="https://raw.githubusercontent.com/gallardo034/Primer-repository/main/assets/projects/talar-del-lago-4.jpeg" alt="Comedor exterior de Talar del Lago" loading="lazy" />
+            </div>
+          </div>
+        </article>
+
+        <div class="portfolio-grid">
+          <article class="project-card portfolio-card" data-category="campo">
+            <img
+              src="https://raw.githubusercontent.com/gallardo034/Primer-repository/main/assets/projects/san-miguel-del-monte.jpeg"
+              alt="Casa contemporanea en San Miguel del Monte rodeada de paisaje rural"
+              loading="lazy"
+            />
+            <div class="project-info">
+              <span>Vivienda de campo</span>
+              <h3>San Miguel del Monte</h3>
+              <p>Volumenes bajos, hormigon y paisaje abierto como parte central del proyecto.</p>
+            </div>
+          </article>
+          <article class="project-card portfolio-card" data-category="jose-ignacio">
+            <img
+              src="https://raw.githubusercontent.com/gallardo034/Primer-repository/main/assets/projects/las-portuguesas-jose-ignacio.jpeg"
+              alt="Casa Las Portuguesas en Jose Ignacio integrada al paisaje natural"
+              loading="lazy"
+            />
+            <div class="project-info">
+              <span>Vivienda costera</span>
+              <h3>Las Portuguesas, Jose Ignacio</h3>
+              <p>Hormigon, madera y vegetacion nativa para una casa abierta al paisaje.</p>
+            </div>
+          </article>
+          <article class="project-card portfolio-card wide-card" data-category="jose-ignacio">
+            <img
+              src="https://raw.githubusercontent.com/gallardo034/Primer-repository/main/assets/projects/arenas-de-jose-ignacio.jpeg"
+              alt="Casa Arenas de Jose Ignacio con piedra, madera y galeria exterior"
+              loading="lazy"
+            />
+            <div class="project-info">
+              <span>Vivienda costera</span>
+              <h3>Arenas de Jose Ignacio</h3>
+              <p>Casa de una planta abierta al entorno, con piedra y grandes aventanamientos.</p>
+            </div>
+          </article>
+          <article class="project-card portfolio-card" data-category="campo">
+            <div class="project-media">
+              <img
+                src="https://raw.githubusercontent.com/gallardo034/Primer-repository/main/assets/projects/benquerencia-1.jpeg"
+                alt="Casa Benquerencia con jardin, pileta y galeria"
+                loading="lazy"
+              />
+              <div class="project-thumbs" aria-label="Mas fotos de Benquerencia">
+                <img src="https://raw.githubusercontent.com/gallardo034/Primer-repository/main/assets/projects/benquerencia-2.jpeg" alt="Acceso y jardin de la obra Benquerencia" loading="lazy" />
+              </div>
+            </div>
+            <div class="project-info">
+              <span>Vivienda unifamiliar</span>
+              <h3>Benquerencia</h3>
+              <p>Implantacion baja, jardin consolidado y expansion exterior.</p>
+            </div>
+          </article>
         </div>
       </section>
 
@@ -138,96 +251,6 @@
           <article>
             <strong>BA</strong>
             <span>base en Buenos Aires</span>
-          </article>
-        </div>
-      </section>
-
-      <section class="projects section" id="proyectos">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">Proyectos</div>
-            <h2>Una seleccion de obras y encargos.</h2>
-          </div>
-          <div class="filters" aria-label="Filtrar proyectos">
-            <button class="filter active" type="button" data-filter="all">Todos</button>
-            <button class="filter" type="button" data-filter="buenos-aires">Buenos Aires</button>
-            <button class="filter" type="button" data-filter="campo">Campo</button>
-            <button class="filter" type="button" data-filter="jose-ignacio">Jose Ignacio</button>
-          </div>
-        </div>
-
-        <div class="project-grid">
-          <article class="project-card" data-category="buenos-aires">
-            <div class="project-media">
-              <img
-                src="https://raw.githubusercontent.com/gallardo034/Primer-repository/main/assets/projects/talar-del-lago-2.jpeg"
-                alt="Obra Talar del Lago con quincho, pileta y expansion exterior"
-                loading="lazy"
-              />
-              <div class="project-thumbs" aria-label="Mas fotos de Talar del Lago">
-                <img src="https://raw.githubusercontent.com/gallardo034/Primer-repository/main/assets/projects/talar-del-lago-1.jpeg" alt="Vista de la casa Talar del Lago desde el jardin" loading="lazy" />
-                <img src="https://raw.githubusercontent.com/gallardo034/Primer-repository/main/assets/projects/talar-del-lago-3.jpeg" alt="Galeria y pileta de Talar del Lago" loading="lazy" />
-                <img src="https://raw.githubusercontent.com/gallardo034/Primer-repository/main/assets/projects/talar-del-lago-4.jpeg" alt="Comedor exterior de Talar del Lago" loading="lazy" />
-              </div>
-            </div>
-            <div class="project-info">
-              <span>Vivienda unifamiliar</span>
-              <h3>Talar del Lago</h3>
-              <p>Casa con espacios exteriores, pileta y areas semicubiertas para uso cotidiano.</p>
-            </div>
-          </article>
-          <article class="project-card" data-category="campo">
-            <img
-              src="https://raw.githubusercontent.com/gallardo034/Primer-repository/main/assets/projects/san-miguel-del-monte.jpeg"
-              alt="Casa contemporanea en San Miguel del Monte rodeada de paisaje rural"
-              loading="lazy"
-            />
-            <div class="project-info">
-              <span>Vivienda de campo</span>
-              <h3>San Miguel del Monte</h3>
-              <p>Volumenes bajos, hormigon y paisaje abierto como parte central del proyecto.</p>
-            </div>
-          </article>
-          <article class="project-card" data-category="jose-ignacio">
-            <img
-              src="https://raw.githubusercontent.com/gallardo034/Primer-repository/main/assets/projects/las-portuguesas-jose-ignacio.jpeg"
-              alt="Casa Las Portuguesas en Jose Ignacio integrada al paisaje natural"
-              loading="lazy"
-            />
-            <div class="project-info">
-              <span>Vivienda costera</span>
-              <h3>Las Portuguesas, Jose Ignacio</h3>
-              <p>Arquitectura contemporanea con hormigon, madera y vegetacion nativa.</p>
-            </div>
-          </article>
-          <article class="project-card" data-category="jose-ignacio">
-            <img
-              src="https://raw.githubusercontent.com/gallardo034/Primer-repository/main/assets/projects/arenas-de-jose-ignacio.jpeg"
-              alt="Casa Arenas de Jose Ignacio con piedra, madera y galeria exterior"
-              loading="lazy"
-            />
-            <div class="project-info">
-              <span>Vivienda costera</span>
-              <h3>Arenas de Jose Ignacio</h3>
-              <p>Casa de una planta abierta al entorno, con piedra y grandes aventanamientos.</p>
-            </div>
-          </article>
-          <article class="project-card" data-category="campo">
-            <div class="project-media">
-              <img
-                src="https://raw.githubusercontent.com/gallardo034/Primer-repository/main/assets/projects/benquerencia-1.jpeg"
-                alt="Casa Benquerencia con jardin, pileta y galeria"
-                loading="lazy"
-              />
-              <div class="project-thumbs" aria-label="Mas fotos de Benquerencia">
-                <img src="https://raw.githubusercontent.com/gallardo034/Primer-repository/main/assets/projects/benquerencia-2.jpeg" alt="Acceso y jardin de la obra Benquerencia" loading="lazy" />
-              </div>
-            </div>
-            <div class="project-info">
-              <span>Vivienda unifamiliar</span>
-              <h3>Benquerencia</h3>
-              <p>Proyecto residencial con implantacion baja, jardin consolidado y expansion exterior.</p>
-            </div>
           </article>
         </div>
       </section>
